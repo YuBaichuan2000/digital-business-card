@@ -3,7 +3,7 @@ import { LoremIpsum } from 'react-lorem-ipsum';
 
 function Intro() {
     return (
-        <div>
+        <div id="intro">
             <h3>About</h3>
             <LoremIpsum />
             <h3>Skills</h3>

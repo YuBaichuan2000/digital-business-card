@@ -9,20 +9,22 @@ html {
 body {
     font-size: 16px;
     background-color: lightgray;
+    color: white;
 }
 
 .main-container {
     margin: 0 auto;
     margin-top: 50px;
-    /* height: 750px; */
     width: 350px;
-    border: 3px black solid;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Box shadow */
+    transition: 0.3s; /* Adds a transition effect */
+    background-color: black;
 }
 
 .top-container {
     width: 100%;
     height: 300px;
-    border: 1px blue solid;
     padding: 3%;
     overflow: hidden;
 }
@@ -31,11 +33,22 @@ body {
     width: 100%;
     height: 100%; 
     object-fit: cover; 
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Box shadow */
+    transition: 0.3s; /* Adds a transition effect */
 }
 
 .name {
     display: flex;
     justify-content: center;
+}
+
+#developer p {
+    color: #61DAFB;
+}
+
+h2 {
+    margin-bottom: 3px;
 }
 
 .btns {
@@ -45,9 +58,7 @@ body {
 }
 
 button {
-    background-color: #4CAF50; /* Green background */
     border: none;
-    color: white; /* White text */
     padding: 15px 32px; /* Some padding */
     text-align: center;
     text-decoration: none;
@@ -64,7 +75,24 @@ button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3); /* Changes the shadow on hover */
 }
 
-.bottom-container {
-    padding: 3%;
+#email {
+    background-color: white;
+    color: black;
 }
 
+#linkedin {
+    background-color: #0762C8;
+    color: white;
+}
+
+.bottom-container {
+    padding: 5%;
+}
+
+#intro p {
+    opacity: 0.5;
+}
+
+h3 {
+    color: #61DAFB;
+}

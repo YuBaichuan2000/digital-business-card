@@ -3,8 +3,8 @@ import React from "react"
 function Btn () {
     return (
         <div className="btns">
-            <button>Email</button>
-            <button>Linkedin</button>
+            <button id="email">Email</button>
+            <button id="linkedin">Linkedin</button>
         </div>
         
     )
