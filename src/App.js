@@ -1,6 +1,9 @@
 import React from "react"
 import "./styles.css"
 import Photo from "./images/Profile Photo.jpg"
+import Name from "./components/Name"
+import Btns from "./components/Btns"
+import Intro from "./components/Intro"
 
 function App () {
     return (
@@ -9,9 +12,9 @@ function App () {
                 <img src={Photo} alt="profile img"/>
             </div>
             <div className="bottom-container">
-                <div className="name"></div>
-                <div className="btns"></div>
-                <div className="intros"></div>
+                <Name />
+                <Btns />
+                <Intro /> 
             </div>
             <div className="footer"></div>
         </div>  
